@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    background-color:hsl(217, 54%, 11%);
+
+    color: hsl(215, 51%, 70%);
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    width: 265px;
+    height: 450px;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+
+    border-radius: 12px;
+}
+
+.title {
+    width: max-content;
+
+    padding: 0px;
+}
+
+.text {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    width: auto;
+    padding: 10px;
+    position: relative;
+    bottom: 15px;
+}
+
+.container_img img{
+    /*background-color: antiquewhite;*/
+    position: relative;
+    width: 240px;
+    height: 215px;
+    bottom: 30px;
+    left: 0px;
+    padding: 0px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.description {
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    position: relative;
+    bottom: 15px;
+}
+
+.p1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    bottom: 15px;
+}
+
+hr {
+    position: relative;
+    bottom: 15px;
+}
+
+.creation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+    left: 20px;
+}
+
+.Name {
+    color: hsl(0, 0%, 100%);
+}
+
+.ethe {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.clock {
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+}
+
+svg {
+    position: relative;
+    top: 1px;
+    right: 5px;
+}
+
+.avatar {
+    width: 32px;
+
+}
+
+.creacion {
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    left: 10px;
+}
+
+.view {
+    /*background-color: aqua;*/
+    width: 240px;
+    height: 215px;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    opacity: 50%;
+    border-radius: 5px;
+}
+
+.view_1 {
+    position: absolute;
+    top: 35%;
+    right: 40%;
+    opacity: 0%;
+}
+
+hr {
+    height: 0px;
+    border: solid 1px hsl(215, 51%, 70%);
+    opacity: 20%;
+}
+.attribution {
+    position: absolute;
+    top: 96%;
+    left: 40%;
+}
+
+.text:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.Name:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.eye{
+    position: absolute;
+    z-index: 1;
+    opacity: 0%;
+}
+
+.icon{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    width: 240px;
+    height: 215px;
+    z-index: 10;
+    top: 15px;
+    left: 12px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+}
+
+.icon:hover, .eye{
+    opacity: 60%;
+    cursor: pointer;
+    transition: .3s ease;
+}
