@@ -152,7 +152,8 @@ hr {
 .attribution {
     position: absolute;
     top: 96%;
-    left: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .text:hover{
@@ -191,3 +192,4 @@ hr {
     cursor: pointer;
     transition: .3s ease;
 }
+
